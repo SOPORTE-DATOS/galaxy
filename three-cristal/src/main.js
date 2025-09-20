@@ -15,7 +15,7 @@ const camera = new THREE.PerspectiveCamera(
   0.1,
   10000
 );
-camera.position.set(0, 100, 1200);
+camera.position.set(0, 50, 1100);
 
 
 // === Renderer ===
@@ -263,7 +263,14 @@ const words = [
   "Locura De Amor", "Magia De Amor", "Fantasía De Amor", "Sueños Contigo",
   "Latidos De Amor", "Suspiros", "Enamorados", "Mi Pareja", "Mi Amado", "Mi Amada",
   "Eres Especial", "Eres Único", "Eres Increíble", "Eres Hermosa", "Eres Perfecto",
-  "Mi Razón De Ser", "Mi Compañía", "Mi Socio En Todo", "Mi Media Naranja"
+  "Mi Razón De Ser", "Mi Compañía", "Mi Socio En Todo", "Mi Media Naranja", "Mi Confidente",
+  "Mi Mejor Amigo", "Mi Mejor Amiga", "Mi Cómplice", "Mi Aventurero", "Mi Aventurera",
+  "Eres Mi Mundo", "Eres Mi Universo", "Eres Mi Cielo", "Eres Mi Estrella", "Eres Mi Sol",
+  "Te Amo Más Cada Día", "Te Quiero Más Que A Nada", "Te Pienso Sin Parar", "Te Sueño Sin Fin",
+  "Te Adoro Con Todo Mi Ser", "Te Extraño Cuando No Estás", "Te Necesito A Mi Lado",
+  "Eres Mi Vida Entera", "Eres Mi Todo Y Más", "Eres Mi Luz En La Oscuridad",
+  "Eres Mi Sonrisa En Los Días Grises", "Eres Mi Inspiración Diaria",
+  "Siempre Tú En Mis Pensamientos", "Juntos Somos Invencibles", "Para Siempre Contigo","Mi Señorita","Mis ojitos lindos","Mi Shelly"
 ];
 
 
