@@ -12,10 +12,10 @@ scene.background = new THREE.Color(0x000000);
 const camera = new THREE.PerspectiveCamera(
   75,
   window.innerWidth / window.innerHeight,
-  0.1,
+  0.8,
   10000
 );
-camera.position.set(0, 50, 1100);
+camera.position.set(0, 30, 800);
 
 
 // === Renderer ===
@@ -40,8 +40,8 @@ const bloomPass = new UnrealBloomPass(
 composer.addPass(bloomPass);
 
 // === Núcleo brillante ===
-const coreGeometry = new THREE.SphereGeometry(40, 64, 64);
-const coreMaterial = new THREE.MeshBasicMaterial({ color: 0xfffffe });
+const coreGeometry = new THREE.SphereGeometry(45, 70, 70);
+const coreMaterial = new THREE.MeshBasicMaterial({ color: 0xffffee, emissive: 0xffffee, emissiveIntensity: 2 });
 const core = new THREE.Mesh(coreGeometry, coreMaterial);
 
 // === Grupo Galaxia ===
